@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+div.blue-bg {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+color: white;
+}
+div.circle {
+  width: 50%;
+  background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  border-radius: 50%;
+  display: grid;
+  margin: auto;
+}

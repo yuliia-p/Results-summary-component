@@ -1,0 +1,16 @@
+@media screen and (min-width: 756px) {
+  .container {
+    width: 600px;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  } 
+  .row {
+    display: flex;
+  }
+
+  .column-half {
+    flex-basis: 50%;
+  }
+}
